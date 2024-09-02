@@ -17,11 +17,11 @@ const corsOptions = {
   Headers: true,
   exposedHeaders: 'Set-Cookie',
   methods: ['GET', 'PUT', 'POST', 'DELETE', 'OPTIONS'],
-  // allowedHeaders: [
-  //   'Access-Control-Allow-Origin',
-  //   'Content-Type',
-  //   'Authorization'
-  // ]
+  allowedHeaders: [
+    'Access-Control-Allow-Origin',
+    'Content-Type',
+    'Authorization'
+  ]
 };
 
 app.use(cors(corsOptions));

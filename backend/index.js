@@ -11,17 +11,17 @@ const router = require('./routes/index')
 const app= express();
 
 const corsOptions = {
-  origin: e-shop-tau-seven.vercel.app/,
+  origin: process.env.FRONTEND_URL,
   credentials: true, 
   optionSuccessStatus: 200,
   Headers: true,
   exposedHeaders: 'Set-Cookie',
   methods: ['GET', 'PUT', 'POST', 'DELETE', 'OPTIONS'],
-  allowedHeaders: [
-    'Access-Control-Allow-Origin',
-    'Content-Type',
-    'Authorization'
-  ]
+  // allowedHeaders: [
+  //   'Access-Control-Allow-Origin',
+  //   'Content-Type',
+  //   'Authorization'
+  // ]
 };
 
 app.use(cors(corsOptions));

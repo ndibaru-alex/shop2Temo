@@ -1,5 +1,5 @@
 
-const backendDomain = 'http://localhost:8080'
+const backendDomain = 'shop-neon-tau-38.vercel.app'
 const SummaryApi = {
 
      signUp : {

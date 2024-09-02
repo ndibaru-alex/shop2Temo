@@ -27,7 +27,7 @@ const app= express();
 // app.use(cors(corsOptions));
 
 app.use(cors({
-    origin : https://e-shop-sigma-nine.vercel.app/,
+    origin : process.env.FRONTEND_URL,
     methods : ['POST' , 'GET'],
     credentials : true
 }));

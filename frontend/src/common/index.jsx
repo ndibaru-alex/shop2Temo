@@ -1,5 +1,5 @@
 
-const backendDomain = 'https://shop-neon-tau-38.vercel.app/'
+const backendDomain = 'https://shop-neon-tau-38.vercel.app'
 const SummaryApi = {
 
      signUp : {

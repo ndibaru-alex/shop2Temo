@@ -1,5 +1,5 @@
 
-const backendDomain = ''
+const backendDomain = 'https://e-shop-api-five.vercel.app/'
 const SummaryApi = {
 
      signUp : {
@@ -39,7 +39,7 @@ const SummaryApi = {
       method : 'post'
      },
      categoryProduct : {
-      url : `/api/get-productCategory`,
+      url : `${backendDomain}/api/get-productCategory`,
       method : 'get'
      },
      getCategoryWiseProduct : {

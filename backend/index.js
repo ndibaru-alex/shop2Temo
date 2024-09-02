@@ -43,7 +43,7 @@ limit: '50mb'
 app.use(cookieParser())
 
 
-app.use('/api',router);
+app.use('//api',router);
 
 
 

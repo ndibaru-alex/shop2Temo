@@ -10,27 +10,27 @@ const router = require('./routes/index')
 
 const app= express();
 
-// const corsOptions = {
-//   origin: process.env.FRONTEND_URL,
-//   credentials: true, 
-//   optionSuccessStatus: 200,
-//   Headers: true,
-//   exposedHeaders: 'Set-Cookie',
-//   methods: ['GET', 'PUT', 'POST', 'DELETE', 'OPTIONS'],
-//   allowedHeaders: [
-//     'Access-Control-Allow-Origin',
-//     'Content-Type',
-//     'Authorization'
-//   ]
-// };
+const corsOptions = {
+  origin: process.env.FRONTEND_URL,
+  credentials: true, 
+  optionSuccessStatus: 200,
+  Headers: true,
+  exposedHeaders: 'Set-Cookie',
+  methods: ['GET', 'PUT', 'POST', 'DELETE', 'OPTIONS'],
+  allowedHeaders: [
+    'Access-Control-Allow-Origin',
+    'Content-Type',
+    'Authorization'
+  ]
+};
 
-// app.use(cors(corsOptions));
+app.use(cors(corsOptions));
 
-app.use(cors({
-    origin : *,
-    methods : ['POST' , 'GET'],
-    credentials : true
-}));
+// app.use(cors({
+//     origin : *,
+//     methods : ['POST' , 'GET'],
+//     credentials : true
+// }));
 
 app.use(express.json({
 verify: (req, buf) => {

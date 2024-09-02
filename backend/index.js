@@ -26,11 +26,11 @@ const app= express();
 
 // app.use(cors(corsOptions));
 
-// app.use(cors({
-//     origin : process.env.FRONTEND_URL,
-//     methods : ['POST' , 'GET'],
-//     credentials : true
-// }));
+app.use(cors({
+    origin : *,
+    methods : ['POST' , 'GET'],
+    credentials : true
+}));
 
 app.use(express.json({
 verify: (req, buf) => {

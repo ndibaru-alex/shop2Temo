@@ -11,7 +11,7 @@ const router = require('./routes/index')
 const app= express();
 
 const corsOptions = {
-  origin: ,
+  origin: process.env.FRONTEND_URL ,
   credentials: true, 
   optionSuccessStatus: 200,
   Headers: true,

@@ -1,5 +1,5 @@
 
-const backendDomain = 'https://e-shop-api-five.vercel.app/'
+const backendDomain = 'https://e-shop-api-five.vercel.app'
 const SummaryApi = {
 
      signUp : {

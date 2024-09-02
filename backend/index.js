@@ -11,7 +11,7 @@ const router = require('./routes/index')
 const app= express();
 
 const corsOptions = {
-  origin: https://e-shop-tau-seven.vercel.app/,
+  origin: e-shop-tau-seven.vercel.app/,
   credentials: true, 
   optionSuccessStatus: 200,
   Headers: true,

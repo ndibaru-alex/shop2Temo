@@ -27,7 +27,7 @@ const app= express();
 // app.use(cors(corsOptions));
 
 app.use(cors({
-    origin : process.env.FRONTEND_URL,
+    origin : https://e-shop-tau-seven.vercel.app/,
     methods : ['POST' , 'GET'],
     credentials : true
 }));

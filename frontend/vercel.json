@@ -1,7 +1,7 @@
 {
     "rewrites" : [
         { "source" : "/(.*)" , "destination" : "index.html"},
-        { "source" : "/api" , "destination" : "https://e-shop-api-five.vercel.app/" }
+        { "source" : "/api" , "destination" : "https://e-shop-api-five.vercel.app" }
     
     ]
 }

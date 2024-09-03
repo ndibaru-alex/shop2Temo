@@ -129,7 +129,7 @@ const navigate = useNavigate()
         </div>
 
         {
-{/*           user?._id && ( */}
+          user?._id && (
           <Link to={'/cart'}> 
         <div className='text-2xl relative'>        
         <span><FaShoppingCart/></span>
@@ -138,7 +138,7 @@ const navigate = useNavigate()
         </div>
         </div>
         </Link>
-{/*           ) */}
+          )
         }
        
       

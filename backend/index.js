@@ -20,7 +20,8 @@ const corsOptions = {
   allowedHeaders: [
     'Access-Control-Allow-Origin',
     'Content-Type',
-    'Authorization'
+    'Authorization',
+    `${process.env.FRONTEND_URL}`
   ]
 };
 

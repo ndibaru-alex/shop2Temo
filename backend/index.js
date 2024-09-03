@@ -21,7 +21,7 @@ const corsOptions = {
     'Access-Control-Allow-Origin',
     'Content-Type',
     'Authorization',
-    `${process.env.FRONTEND_URL}`
+    
   ]
 };
 
